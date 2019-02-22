@@ -52,7 +52,17 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 
 
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [X] What are three different ways to style components in React? Explain some of the benefits of each.
+
+
+
+    CSS - Easy, low barrier to entry, don’t need to install anything, no special setup.
+
+    Styled Components - Lets you write your CSS directly in your JavaScript files. You can also import your common style components and set props so you can make reusable CSS components.
+
+    ReactStrap/Bootstrap - Gives you pre-built components that are already styled using the bootstrap styling library, You don’t need to style your own elements just need to set your elements to the reactstrap classes. This saves you a lot of time.
+
+
 
 ## Project Setup
 
