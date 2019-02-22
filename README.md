@@ -36,7 +36,14 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 
 
-- [ ] Describe a life-cycle event in React?
+- [X] Describe a life-cycle event in React?
+
+
+
+    The last lifecycle event in the Mounting phase is componentDidMount. componentDidMount gets called as soon as the render method is called for the first time. Inside componentDidMount we can setState and force a re-render. This is helpful when you are getting data from an API and the fetch is delayed so the data comes in after the initial render.
+
+
+
 - [ ] Explain the details of a Higher Order Component?
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
 
