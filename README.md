@@ -28,7 +28,14 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 ## Self-Study/Essay Questions
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+- [X] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+
+
+	PropTypes are used to validate the props you are passing around your application. It is important to check our data in JavaScript because is has dynamic typing. This means that you don’t have to declare what type of data each variable is. So an variable can hold any type of data.
+
+
+
 - [ ] Describe a life-cycle event in React?
 - [ ] Explain the details of a Higher Order Component?
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
