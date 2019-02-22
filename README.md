@@ -44,7 +44,14 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 
 
-- [ ] Explain the details of a Higher Order Component?
+- [X] Explain the details of a Higher Order Component?
+
+
+
+    A Higher Order Component is a function that receives a component as an argument and returns a new component. This helps keep code more DRY because it allows developers to  pass components into a HOC and gain some shared functionality, instead of writing out that functionality for each component.
+
+
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
 
 ## Project Setup
