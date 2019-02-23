@@ -28,10 +28,41 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 ## Self-Study/Essay Questions
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-- [ ] Describe a life-cycle event in React?
-- [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+- [X] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+
+
+	PropTypes are used to validate the props you are passing around your application. It is important to check our data in JavaScript because is has dynamic typing. This means that you don’t have to declare what type of data each variable is. So an variable can hold any type of data.
+
+
+
+- [X] Describe a life-cycle event in React?
+
+
+
+    The last lifecycle event in the Mounting phase is componentDidMount. componentDidMount gets called as soon as the render method is called for the first time. Inside componentDidMount we can setState and force a re-render. This is helpful when you are getting data from an API and the fetch is delayed so the data comes in after the initial render.
+
+
+
+- [X] Explain the details of a Higher Order Component?
+
+
+
+    A Higher Order Component is a function that receives a component as an argument and returns a new component. This helps keep code more DRY because it allows developers to  pass components into a HOC and gain some shared functionality, instead of writing out that functionality for each component.
+
+
+
+- [X] What are three different ways to style components in React? Explain some of the benefits of each.
+
+
+
+    CSS - Easy, low barrier to entry, don’t need to install anything, no special setup.
+
+    Styled Components - Lets you write your CSS directly in your JavaScript files. You can also import your common style components and set props so you can make reusable CSS components.
+
+    ReactStrap/Bootstrap - Gives you pre-built components that are already styled using the bootstrap styling library, You don’t need to style your own elements just need to set your elements to the reactstrap classes. This saves you a lot of time.
+
+
 
 ## Project Setup
 
